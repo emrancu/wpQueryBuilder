@@ -7,10 +7,11 @@
 <p> via Composer:  <code>composer require alemran/wp-query-builder</code> </p>
   # Example 
   
-   <pre class="mt-2"><code>
-   // Make sure you have Composer's autoload file included
+   <pre class="mt-2"><code> 
     require 'vendor/autoload.php';
+    
     use wpQueryBuilder\DB;
+    
     DB::table('demo')->first()
 </code></pre>
 <br>
