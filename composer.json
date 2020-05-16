@@ -2,10 +2,10 @@
   "name": "alemran/wp-query-builder",
   "description": "The query builder for WordPress",
   "license": "MIT",
-  "homepage": "https://github.com/emrancu/PluginMaster-DB",
+  "homepage": "https://github.com/emrancu/wpQueryBuilder",
   "support": {
-    "issues": "https://github.com/emrancu/PluginMaster-DB/issues",
-    "source": "https://github.com/emrancu/PluginMaster-DB"
+    "issues": "https://github.com/emrancu/wpQueryBuilder/issues",
+    "source": "https://github.com/emrancu/wpQueryBuilder"
   },
   "authors": [
     {
