@@ -16,7 +16,7 @@
   "keywords": [
     "Query Builder",
     "Query builder for WordPress",
-    "WordPress Query Builder",
+    "WordPress Query Builder"
   ],
   "autoload": {
     "classmap": [],
