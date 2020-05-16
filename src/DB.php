@@ -237,6 +237,7 @@ class DB implements BuilderBase
     {
         $this->whereClause .= $this->closerSession && $this->closerCounter == 1 ? ' ' : ($this->whereClause ? ' AND ' : ' where ');
         $this->whereClause .= $query;
+		return $this;
     }
 
     /**
@@ -246,6 +247,7 @@ class DB implements BuilderBase
     {
         $this->whereClause .= $this->closerSession && $this->closerCounter == 1 ? ' ' : ($this->whereClause ? ' OR ' : ' where ');
         $this->whereClause .= $query;
+		return $this;
     }
 
 
